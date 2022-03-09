@@ -112,7 +112,7 @@ const PatientSignup = props => {
 
   const signupPatient = () => {
     if (validateFields()) {
-      Alert.alert('Please resolve the errors');
+      Alert.alert('Please fill all the details');
     } else {
       setLoading(true);
       const user = {

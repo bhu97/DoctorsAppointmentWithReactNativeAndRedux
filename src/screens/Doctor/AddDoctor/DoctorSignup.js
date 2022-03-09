@@ -203,7 +203,7 @@ function DoctorSignup(props) {
 
   const addDoctor = () => {
     if (validateFields()) {
-      Alert.alert('Resolve the errors');
+      Alert.alert('Please fill all the fields');
     } else {
       const user = {
         email,

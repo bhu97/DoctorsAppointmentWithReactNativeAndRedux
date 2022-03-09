@@ -29,6 +29,7 @@ export default StyleSheet.create({
      right: -50,
     // top: 290,
     marginTop: 20,
+    backgroundColor: 'white',
   },
   input: {
     // top: 290,

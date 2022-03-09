@@ -36,7 +36,7 @@ class Login extends Component {
         this.props.route.params.role,
       );
     } else {
-      Alert.alert('Please enter email & password');
+      Alert.alert('Please fill all the fields');
     }
   };
 
